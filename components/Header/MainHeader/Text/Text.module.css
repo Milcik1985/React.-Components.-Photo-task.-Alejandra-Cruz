@@ -13,3 +13,43 @@
   font-size: 1.5rem;
   width: 100%;
 }
+
+@media only screen and (max-width: 900px) {
+  .main h2 {
+    font-size: 2rem;
+  }
+
+  .main p {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  .main {
+    padding: 3rem;
+  }
+}
+
+@media only screen and (max-width: 666px) {
+  .main {
+    padding: 2rem;
+  }
+}
+
+@media only screen and (max-width: 592px) {
+  .main {
+    width: 73%;
+  }
+}
+
+@media only screen and (max-width: 496px) {
+  .main {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .main {
+    width: 100%;
+  }
+}

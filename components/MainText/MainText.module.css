@@ -16,3 +16,39 @@
 .main p {
   width: 46%;
 }
+
+@media only screen and (max-width: 900px) {
+  .main {
+    padding: 5rem;
+  }
+}
+
+@media only screen and (max-width: 785px) {
+  .main {
+    padding: 2rem;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .main {
+    padding: 1rem;
+  }
+
+  .main h2 {
+    width: 55%;
+  }
+
+  .main p {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 582px) {
+  .main h2 {
+    width: 87%;
+  }
+
+  .main p {
+    width: 90%;
+  }
+}
