@@ -1,0 +1,7 @@
+.main {
+  height: 5rem;
+  background-color: #3c4048;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
